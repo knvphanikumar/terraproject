@@ -4,7 +4,7 @@ access_key = "AKIA2ZIOMZUJQFAQUG5Y"
 secret_key = "WMzp3woSuh1Q8nbezl4rZL4jMpq5BrCcM4zNkZSf"
 }
 
-resource "aws_instance" "ec2_example" {
+resource "aws_instance" "example" {
   ami                    = "ami-084568db4383264d4"
   instance_type          = "t2.micro"
   key_name = "phanitf"
